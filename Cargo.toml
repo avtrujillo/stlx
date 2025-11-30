@@ -9,6 +9,7 @@ dfdx = {version = "0.13.0", default-features = false}
 clap = { version = "4.5.53", features = ["derive"], optional = true }
 clap_derive = {version = "4.5.49", optional = true}
 onnx-ir = "0.19.1"
+num-traits = { version = "0.2.19", features = ["i128"] }
 
 [[bin]]
 name = "stlx"

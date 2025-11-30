@@ -897,6 +897,7 @@ dependencies = [
  "clap",
  "clap_derive",
  "dfdx",
+ "num-traits",
  "onnx-ir",
 ]
 

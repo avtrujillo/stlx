@@ -1,6 +1,7 @@
 use std::path::PathBuf;
 
 use clap::Parser;
+use onnx_ir::OnnxGraph;
 
 #[derive(Parser, Debug)]
 // #[command(version, about, long_about = None)]
@@ -25,6 +26,15 @@ pub fn main() {
             ()
         }
     }
+}
+
+pub struct StlxGraph {
+    
+}
+
+// Take an onnx graph and turn it into a types stlx graph
+fn type_graph(onnx_graph: OnnxGraph) {
+
 }
 
 
